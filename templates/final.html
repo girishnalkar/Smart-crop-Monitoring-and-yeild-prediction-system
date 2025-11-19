@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Final Analysis Result</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i
+            class="fa-solid fa-seedling"
+            style="font-size: 24px; color: white; margin-right: 8px"
+          ></i>
+          Crop Analysis
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-3 flex-lg-row">
+            <li class="nav-item me-lg-3">
+              <a class="nav-link custome-link" href="{{ url_for('dashboard') }}"
+                >Dashboard</a
+              >
+            </li>
+            <li class="nav-item me-lg-3">
+              <a class="nav-link custome-link" href="{{ url_for('analyze') }}"
+                >Analysis</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link custome-link"
+                href="{{ url_for('visualize_yield') }}"
+                >Visuals</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle d-flex align-items-center"
+                href="#"
+                id="userDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-user me-2"></i>
+                <span id="username"> {{ username }}</span>
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="userDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="{{ url_for('index') }}"
+                    >Logout</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <div class="card shadow-lg p-4">
+        <h2 class="text-center text-success">🌱 Final Crop Analysis</h2>
+        <hr />
+
+        <!-- Uploaded Image -->
+        {% if image_url %}
+        <div class="text-center mb-4">
+          <img
+            src="{{ image_url }}"
+            alt="Uploaded Image"
+            class="img-fluid rounded shadow"
+            style="max-height: 400px"
+          />
+        </div>
+        {% endif %}
+
+        <!-- Disease Prediction -->
+        {% if prediction %}
+        <div
+          class="mt-4 p-3 rounded {{ 'bg-success text-white' if prediction.lower()=='healthy' else 'bg-danger text-white' }}"
+        >
+          <h4>🦠 Disease Prediction:</h4>
+          <p class="fs-5">{{ prediction }}</p>
+        </div>
+        {% endif %} {% if disease_cause %}
+        <div class="card mt-4 p-3">
+          <h4>🧫 Disease Cause</h4>
+          <p class="fs-5">{{ disease_cause }}</p>
+        </div>
+        {% endif %} {% if disease_cure %}
+        <div class="card mt-3 p-3">
+          <h4>💊 Recommended Cure / Treatment</h4>
+          <ul>
+            {% for step in disease_cure %}
+            <li class="fs-5">{{ step }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        <!-- Yield Prediction -->
+        {% if yield_per_ha is not none and total_production is not none %}
+        <div class="mt-4 card p-3">
+          <h4>📊 Yield Prediction:</h4>
+          <p class="fs-5">
+            <strong>Yield per Hectare:</strong> {{ yield_per_ha|round(2) }} t/ha
+          </p>
+          <p class="fs-5">
+            <strong>Total Production:</strong> {{ total_production|round(2) }}
+            tonnes
+          </p>
+        </div>
+        {% endif %}
+
+        <div class="mt-4 text-center">
+          <a
+            href="{{ url_for('dashboard') }}"
+            class="btn gradient-btn btn-success btn-lg rounded-pill"
+            >Back to Dashboard</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark text-light mt-5 py-4">
+      <div class="container text-center">
+        <p>
+          &copy; 2024 Crop Analysis. Helping farmers to detect plant diseases
+          with AI and predict yeild.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

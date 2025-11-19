@@ -1,0 +1,485 @@
+{
+  "Wheat": {
+    "BlackPoint": {
+      "cause": "Fungal infection by Alternaria and Bipolaris species due to high humidity during grain filling.",
+      "cure": [
+        "Use certified, fungicide-treated seeds.",
+        "Harvest at proper moisture to avoid kernel darkening.",
+        "Avoid late irrigation after flowering.",
+        "Store grains in a dry, aerated place."
+      ]
+    },
+    "FusariumFootRot": {
+      "cause": "Fusarium fungus infects the crown and roots under dry and warm soil conditions.",
+      "cure": [
+        "Rotate crops with legumes or oilseeds for 2 years.",
+        "Use resistant wheat varieties.",
+        "Treat seed with carbendazim or tebuconazole.",
+        "Avoid soil compaction and improve drainage."
+      ]
+    },
+    "HealthyLeaf": {
+      "cause": "No disease — plant is healthy.",
+      "cure": [
+        "Maintain balanced nutrition.",
+        "Ensure proper irrigation and spacing."
+      ]
+    },
+    "LeafBlight": {
+      "cause": "Fungal disease caused by Alternaria triticina or Helminthosporium spp. in humid conditions.",
+      "cure": [
+        "Spray Mancozeb 0.25% or Propiconazole 0.1%.",
+        "Avoid overcrowding and excess nitrogen.",
+        "Use resistant varieties."
+      ]
+    },
+    "WheatBlast": {
+      "cause": "Caused by Magnaporthe oryzae affecting wheat heads in warm, humid climates.",
+      "cure": [
+        "Use blast-resistant varieties.",
+        "Apply triazole fungicides during heading.",
+        "Destroy infected residues and avoid wheat after rice."
+      ]
+    }
+  },
+
+  "Sugarcane": {
+    "BacterialBlights": {
+      "cause": "Caused by Xanthomonas albilineans bacteria during humid weather and mechanical injuries.",
+      "cure": [
+        "Use hot-water-treated setts (50°C for 30 minutes).",
+        "Destroy infected clumps.",
+        "Spray copper oxychloride 0.3%.",
+        "Use resistant varieties."
+      ]
+    },
+    "Healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": [
+        "Maintain balanced fertilizer and irrigation.",
+        "Use disease-free setts."
+      ]
+    },
+    "Mosaic": {
+      "cause": "Viral disease transmitted by aphids, causing mottled leaves.",
+      "cure": [
+        "Use virus-free planting material.",
+        "Remove and destroy infected plants.",
+        "Control aphids using neem-based insecticides.",
+        "Grow resistant varieties."
+      ]
+    },
+    "RedRot": {
+      "cause": "Fungal disease caused by Colletotrichum falcatum, infecting stalks and setts.",
+      "cure": [
+        "Dip setts in carbendazim 0.1% before planting.",
+        "Avoid ratooning infected crops.",
+        "Destroy infected stubbles.",
+        "Use resistant varieties like Co 419."
+      ]
+    },
+    "Rust": {
+      "cause": "Fungal disease caused by Puccinia melanocephala in humid weather.",
+      "cure": [
+        "Spray Propiconazole 0.1% or Mancozeb 0.25%.",
+        "Use rust-resistant cultivars.",
+        "Improve field aeration."
+      ]
+    },
+    "Yellow": {
+      "cause": "Phytoplasma or virus spread by leafhoppers causing yellowing of leaves.",
+      "cure": [
+        "Use healthy planting material.",
+        "Remove infected plants.",
+        "Control leafhopper with imidacloprid 0.05%.",
+        "Maintain soil fertility."
+      ]
+    }
+  },
+
+  "Millet": {
+    "Healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": [
+        "Use certified seeds.",
+        "Maintain balanced soil nutrition."
+      ]
+    },
+    "blast": {
+      "cause": "Caused by Magnaporthe grisea fungus under warm and humid conditions.",
+      "cure": [
+        "Treat seed with tricyclazole 0.04%.",
+        "Spray tricyclazole 0.06% at early infection.",
+        "Avoid high nitrogen and crowding."
+      ]
+    },
+    "rust": {
+      "cause": "Fungal disease caused by Puccinia substriata under moist conditions.",
+      "cure": [
+        "Spray Mancozeb 0.25% or Propiconazole 0.1%.",
+        "Use resistant cultivars.",
+        "Avoid excess irrigation."
+      ]
+    }
+  },
+
+  "multiple_plants": {
+    "Apple___Apple_scab": {
+      "cause": "Fungus Venturia inaequalis infects leaves and fruits during wet spring weather.",
+      "cure": [
+        "Spray Mancozeb 0.25% during bud break.",
+        "Remove fallen leaves and debris.",
+        "Use resistant varieties."
+      ]
+    },
+    "Apple___Black_rot": {
+      "cause": "Botryosphaeria obtusa fungus infects twigs and fruit under warm, humid conditions.",
+      "cure": [
+        "Prune infected twigs and burn debris.",
+        "Apply Captan 0.3% or Thiophanate-methyl 0.1%.",
+        "Ensure orchard cleanliness."
+      ]
+    },
+    "Apple___Cedar_apple_rust": {
+      "cause": "Caused by Gymnosporangium juniperi-virginianae fungus, spreads from juniper to apple.",
+      "cure": [
+        "Remove nearby junipers.",
+        "Apply Mancozeb 0.25%.",
+        "Use resistant apple varieties."
+      ]
+    },
+    "Apple___healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Maintain orchard hygiene and balanced nutrition."]
+    },
+    "Background_without_leaves": {
+      "cause": "No plant tissue present.",
+      "cure": ["Not applicable."]
+    },
+    "Blueberry___healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Maintain balanced soil pH and pruning."]
+    },
+    "Cherry___Powdery_mildew": {
+      "cause": "Fungus Podosphaera clandestina affects leaves and shoots in humid conditions.",
+      "cure": [
+        "Spray wettable sulfur 0.3%.",
+        "Prune for good air circulation."
+      ]
+    },
+    "Cherry___healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Maintain proper pruning and irrigation."]
+    },
+    "Corn___Cercospora_leaf_spot Gray_leaf_spot": {
+      "cause": "Fungus Cercospora zeae-maydis infects leaves during humid weather.",
+      "cure": [
+        "Rotate crops with legumes.",
+        "Spray Mancozeb 0.25% if symptoms appear."
+      ]
+    },
+    "Corn___Common_rust": {
+      "cause": "Fungal disease caused by Puccinia sorghi.",
+      "cure": [
+        "Spray Propiconazole 0.1%.",
+        "Grow resistant hybrids."
+      ]
+    },
+    "Corn___Northern_Leaf_Blight": {
+      "cause": "Fungus Exserohilum turcicum infects leaves in moist, cool weather.",
+      "cure": [
+        "Use resistant hybrids.",
+        "Spray Mancozeb 0.25% during outbreak."
+      ]
+    },
+    "Corn___healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Maintain crop rotation and spacing."]
+    },
+    "Grape___Black_rot": {
+      "cause": "Fungus Guignardia bidwellii infects leaves and berries in humid weather.",
+      "cure": [
+        "Spray Mancozeb 0.25%.",
+        "Remove infected fruit and leaves."
+      ]
+    },
+    "Grape___Esca_(Black_Measles)": {
+      "cause": "Fungal disease by Phaeomoniella chlamydospora in mature vines.",
+      "cure": [
+        "Prune infected wood.",
+        "Avoid water stress.",
+        "Apply fungicides after pruning."
+      ]
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+      "cause": "Caused by Isariopsis spp. fungus in humid conditions.",
+      "cure": [
+        "Spray copper oxychloride 0.3%.",
+        "Ensure proper pruning."
+      ]
+    },
+    "Grape___healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Maintain canopy ventilation."]
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+      "cause": "Bacterial disease spread by psyllid vectors.",
+      "cure": [
+        "Remove infected trees.",
+        "Control psyllids using neem oil or imidacloprid.",
+        "Use certified planting stock."
+      ]
+    },
+    "Peach___Bacterial_spot": {
+      "cause": "Xanthomonas campestris bacteria infect leaves and fruits.",
+      "cure": [
+        "Spray copper-based bactericides.",
+        "Prune affected twigs.",
+        "Avoid overhead watering."
+      ]
+    },
+    "Peach___healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Maintain pruning and sanitation."]
+    },
+    "Pepper,_bell___Bacterial_spot": {
+      "cause": "Caused by Xanthomonas vesicatoria under warm, moist conditions.",
+      "cure": [
+        "Spray copper oxychloride 0.3%.",
+        "Avoid overhead irrigation."
+      ]
+    },
+    "Pepper,_bell___healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Ensure crop rotation and balanced nutrients."]
+    },
+    "Potato___Early_blight": {
+      "cause": "Alternaria solani fungus infects leaves and tubers.",
+      "cure": [
+        "Spray Mancozeb 0.25% or Chlorothalonil 0.2%.",
+        "Remove infected debris."
+      ]
+    },
+    "Potato___Late_blight": {
+      "cause": "Phytophthora infestans fungus under cool, moist weather.",
+      "cure": [
+        "Spray Metalaxyl + Mancozeb 0.25%.",
+        "Avoid overhead irrigation."
+      ]
+    },
+    "Potato___healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Maintain disease-free seed tubers."]
+    },
+    "Raspberry___healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Maintain good air circulation and sanitation."]
+    },
+    "Soybean___healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Practice crop rotation and use resistant varieties."]
+    },
+    "Squash___Powdery_mildew": {
+      "cause": "Fungus Podosphaera xanthii affects leaves under dry, warm conditions.",
+      "cure": [
+        "Spray sulfur-based fungicides.",
+        "Ensure proper ventilation."
+      ]
+    },
+    "Strawberry___Leaf_scorch": {
+      "cause": "Fungal infection by Diplocarpon earlianum causing necrotic leaf spots.",
+      "cure": [
+        "Spray Captan 0.3%.",
+        "Remove infected leaves."
+      ]
+    },
+    "Strawberry___healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Use disease-free planting stock."]
+    },
+    "Tomato___Bacterial_spot": {
+      "cause": "Caused by Xanthomonas campestris bacteria in moist, warm climates.",
+      "cure": [
+        "Spray copper oxychloride 0.3%.",
+        "Remove infected leaves."
+      ]
+    },
+    "Tomato___Early_blight": {
+      "cause": "Alternaria solani fungus causes leaf spots in warm conditions.",
+      "cure": [
+        "Spray Mancozeb 0.25%.",
+        "Use resistant varieties."
+      ]
+    },
+    "Tomato___Late_blight": {
+      "cause": "Phytophthora infestans fungus during cool, wet weather.",
+      "cure": [
+        "Spray Metalaxyl + Mancozeb 0.25%.",
+        "Destroy infected plants."
+      ]
+    },
+    "Tomato___Leaf_Mold": {
+      "cause": "Fungus Passalora fulva under high humidity in greenhouses.",
+      "cure": [
+        "Ensure ventilation.",
+        "Spray copper fungicides."
+      ]
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "cause": "Fungus Septoria lycopersici infects lower leaves.",
+      "cure": [
+        "Spray Chlorothalonil 0.2%.",
+        "Remove infected debris."
+      ]
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "cause": "Caused by Tetranychus urticae mites under hot, dry conditions.",
+      "cure": [
+        "Spray neem oil or miticide.",
+        "Maintain humidity."
+      ]
+    },
+    "Tomato___Target_Spot": {
+      "cause": "Fungal disease caused by Corynespora cassiicola.",
+      "cure": [
+        "Spray Mancozeb 0.25%.",
+        "Avoid overcrowding."
+      ]
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "cause": "Viral disease spread by whiteflies.",
+      "cure": [
+        "Control whiteflies using imidacloprid 0.05%.",
+        "Remove infected plants."
+      ]
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "cause": "Tobamovirus infection transmitted mechanically.",
+      "cure": [
+        "Use virus-free seeds.",
+        "Disinfect tools regularly."
+      ]
+    },
+    "Tomato___healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Maintain insect control and sanitation."]
+    }
+  },
+
+  "Onion": {
+    "Iris yellow virus": {
+      "cause": "Viral infection spread by thrips or aphids.",
+      "cure": [
+        "Remove infected plants.",
+        "Control vectors using neem oil."
+      ]
+    },
+    "Stemphylium leaf blight and collectrichum leaf blight": {
+      "cause": "Fungal infection by Stemphylium vesicarium and Colletotrichum species.",
+      "cure": [
+        "Spray Mancozeb 0.25% or Propiconazole 0.1%.",
+        "Avoid overhead irrigation."
+      ]
+    },
+    "healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": ["Maintain crop hygiene and spacing."]
+    },
+    "purple blotch": {
+      "cause": "Alternaria porri fungus infects leaves under humid weather.",
+      "cure": [
+        "Spray Iprodione 0.2%.",
+        "Avoid excess nitrogen and crowding."
+      ]
+    }
+  },
+
+  "Rice": {
+    "Bacterialblight": {
+      "cause": "Xanthomonas oryzae bacteria infect leaves through wounds and water splashes.",
+      "cure": [
+        "Spray Streptocycline 100 ppm + Copper oxychloride 0.25%.",
+        "Use resistant varieties like IR 64."
+      ]
+    },
+    "Brownspot": {
+      "cause": "Bipolaris oryzae fungus infects leaves and grains in humid weather.",
+      "cure": [
+        "Treat seed with Captan 0.3%.",
+        "Spray Mancozeb 0.25%."
+      ]
+    },
+    "Leafsmut": {
+      "cause": "Entyloma oryzae fungus infects leaves in high nitrogen conditions.",
+      "cure": [
+        "Use resistant varieties.",
+        "Avoid excess nitrogen."
+      ]
+    }
+  },
+
+  "Soyabean": {
+    "Caterpillar": {
+      "cause": "Caused by larvae of moth species such as Helicoverpa armigera or Spodoptera litura feeding on leaves and fruits.",
+      "cure": [
+        "Handpick and destroy larvae and egg masses.",
+        "Spray neem oil 5% or Bacillus thuringiensis (Bt).",
+        "Use pheromone traps for monitoring.",
+        "In severe cases, spray emamectin benzoate or chlorantraniliprole."
+      ]
+    },
+    "Diabrotica speciosa": {
+      "cause": "Beetle pest that damages roots and leaves of maize, beans, and cucurbits.",
+      "cure": [
+        "Rotate crops with non-host plants like legumes.",
+        "Apply soil insecticide such as imidacloprid or thiamethoxam.",
+        "Use neem-based sprays for adult beetles.",
+        "Maintain field sanitation by removing weeds and residues."
+      ]
+    },
+    "Healthy": {
+      "cause": "No pest or disease infection.",
+      "cure": [
+        "Maintain proper nutrition and field hygiene.",
+        "Regularly monitor crops for early pest detection."
+      ]
+    }
+  },
+
+  "Cotton(lint)": {
+    "bacterial_blight": {
+      "cause": "Caused by the bacterium Xanthomonas oryzae pv. oryzae, favored by high humidity and rain.",
+      "cure": [
+        "Use resistant varieties like IR64 or Samba Mahsuri (sub1).",
+        "Avoid overhead irrigation and standing water for long periods.",
+        "Spray copper oxychloride or streptocycline mixture.",
+        "Remove and destroy infected plant debris."
+      ]
+    },
+    "curl_virus": {
+      "cause": "Caused by Begomovirus transmitted by whiteflies under warm and dry conditions.",
+      "cure": [
+        "Control whiteflies using imidacloprid or neem oil sprays.",
+        "Use virus-tolerant varieties.",
+        "Remove and destroy infected plants early.",
+        "Keep fields free from weed hosts."
+      ]
+    },
+    "fussarium_wilt": {
+      "cause": "Fungal infection by Fusarium oxysporum in warm, poorly drained soils.",
+      "cure": [
+        "Use resistant varieties and disease-free seeds.",
+        "Apply Trichoderma viride to soil or seed.",
+        "Ensure good soil drainage and crop rotation.",
+        "Treat seeds with carbendazim 2g/kg before sowing."
+      ]
+    },
+    "healthy": {
+      "cause": "No disease — plant is healthy.",
+      "cure": [
+        "Maintain balanced NPK nutrition.",
+        "Provide adequate irrigation and pest monitoring."
+      ]
+    }
+  }
+}

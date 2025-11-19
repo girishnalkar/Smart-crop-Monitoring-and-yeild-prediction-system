@@ -1,0 +1,90 @@
+
+
+.fa-solid, .navbar-brand{
+    color: #fff;
+    transition: 0.3s color;
+    font-size: 26px;
+}
+
+.navbar-toggler, .btn-close{
+    border: none;
+    font-size: 1.25rem;
+}
+.navbar-toggler:focus, .btn-close:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .nav-item .nav-link {
+    color: #ffffff !important;   /* Yellow */
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #c2c2c2 !important;   /* Lighter yellow */
+}
+
+.nav-link{
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link:active{
+    color: rgb(183, 181, 181);
+}
+
+.nav-link::before{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before{
+    width: 100%;
+    visibility: visible;
+}
+
+.lead{
+    font-size: 26px;
+}
+
+.gradient-btn {
+  background: linear-gradient(45deg, #1d9f62, #198754); 
+  color: white !important;
+  border: none;
+  padding: 12px 30px;
+  font-weight:500;
+  transition: 0.3s;
+}
+
+.gradient-btn:hover {
+  background: linear-gradient(45deg, #1d9f62,#198754); 
+  transform: scale(1.05); 
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.card-body i {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.card:hover .card-body i {
+    transform: scale(1.1);   
+    color: #198754;         
+}
