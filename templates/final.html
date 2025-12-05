@@ -82,6 +82,7 @@
         </div>
       </div>
     </nav>
+
     <div class="container mt-5">
       <div class="card shadow-lg p-4">
         <h2 class="text-center text-success">🌱 Final Crop Analysis</h2>
@@ -137,6 +138,24 @@
         </div>
         {% endif %}
 
+        <!-- Location, Soil Type & Side Crops -->
+        <div class="mt-4 card p-3">
+          <h4>📍 Location & Soil Information</h4>
+          <p class="fs-5"><strong>State:</strong> {{ state }}</p>
+          <p class="fs-5"><strong>District:</strong> {{ district }}</p>
+
+          {% if soil_type %}
+          <p class="fs-5"><strong>Soil Type:</strong> {{ soil_type }}</p>
+          {% endif %} {% if recommended_side_crops %}
+          <p class="fs-5"><strong>Recommended Side Crops:</strong></p>
+          <ul style="font-size: 1.3rem">
+            {% for crop in recommended_side_crops %}
+            <li>{{ crop }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+
         <div class="mt-4 text-center">
           <a
             href="{{ url_for('dashboard') }}"
@@ -146,11 +165,12 @@
         </div>
       </div>
     </div>
+
     <footer class="bg-dark text-light mt-5 py-4">
       <div class="container text-center">
         <p>
           &copy; 2024 Crop Analysis. Helping farmers to detect plant diseases
-          with AI and predict yeild.
+          with AI and predict yield.
         </p>
       </div>
     </footer>

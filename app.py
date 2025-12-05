@@ -135,6 +135,15 @@ except Exception as e:
     print(f"⚠️ Could not load disease info JSON: {e}")
     DISEASE_INFO = {}
 
+# Load side crops JSON
+try:
+    with open("data/side_crops.json", "r", encoding="utf-8") as f:
+        SIDE_CROP_DATA = json.load(f)
+    print("✅ Loaded side crops JSON")
+except Exception as e:
+    print(f"⚠️ Could not load side crops JSON: {e}")
+    SIDE_CROP_DATA = []
+
 def preprocess_image(img_path, img_size=224):
     img = Image.open(img_path).convert("RGB")
     transform = transforms.Compose([
@@ -212,6 +221,17 @@ def predict_yield(crop, state, area, rainfall, fertilizer, pesticide, avg_temp):
     yield_per_ha = yield_model.predict(test_input)[0]
     total_production = yield_per_ha * area
     return yield_per_ha, total_production
+
+def get_soil_and_side_crop(state, district):
+    """Fetch soil type and recommended side crops based on state & district"""
+    for entry in SIDE_CROP_DATA:
+        if entry["state"].lower() == state.lower() and entry["district"].lower() == district.lower():
+            soil_type = entry.get("soil_type", "Unknown")
+            side_crops = entry.get("side_crops", [])
+            return soil_type, side_crops
+    return "Unknown", []
+
+# ------------- ROUTES ------------- #
 
 @app.route('/visualize_yield')
 @login_required
@@ -388,12 +408,13 @@ def uploadimage():
 
         crop_type = request.form.get("crop_type")
         state = request.form.get("state")
+        district = request.form.get("district")
         area = float(request.form.get("area") or 0)
         fertilizer = float(request.form.get("fertilizer") or 0)
         pesticide = float(request.form.get("pesticide") or 0)
 
-        if not crop_type or not state:
-            flash("Please provide crop type and state")
+        if not crop_type or not state or not district:
+            flash("Please provide crop type, state and district")
             return redirect(request.url)
 
         try:
@@ -407,11 +428,10 @@ def uploadimage():
         else:
             disease_status = 1
 
-
         avg_temp, rainfall = get_weather_data(state)
         if avg_temp is None:
             avg_temp, rainfall = None, None
-
+            
         try:
             yield_per_ha, total_production = predict_yield(
                 crop=crop_type,
@@ -424,6 +444,9 @@ def uploadimage():
             )
         except:
             yield_per_ha, total_production = None, None
+
+        # Fetch soil type and side crops
+        soil_type, recommended_side_crops = get_soil_and_side_crop(state, district)
 
         new_analysis = CropData(
             crop_type=crop_type,
@@ -457,7 +480,12 @@ def uploadimage():
             rainfall=rainfall,
             username=current_user.username,
             disease_cause=disease_cause,
-            disease_cure=disease_cure)
+            disease_cure=disease_cure,
+            soil_type=soil_type,
+            recommended_side_crops=recommended_side_crops,
+            state=state,         
+            district=district 
+        )
 
     return redirect('/')
 

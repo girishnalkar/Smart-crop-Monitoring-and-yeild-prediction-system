@@ -1,0 +1,692 @@
+[
+  {
+    "state": "Maharashtra",
+    "district": "Pune",
+    "soil_type": "Black Soil",
+    "side_crops": ["Tur", "Bajra"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Thane",
+    "soil_type": "Laterite Soil",
+    "side_crops": ["Vegetables", "Millets"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Nashik",
+    "soil_type": "Black Soil",
+    "side_crops": ["Millets", "Pulses"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Solapur",
+    "soil_type": "Black Soil",
+    "side_crops": ["Tur", "Bajra"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Aurangabad",
+    "soil_type": "Black Soil",
+    "side_crops": ["Millets", "Green Gram"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Amravati",
+    "soil_type": "Black Soil",
+    "side_crops": ["Tur", "Soybean"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Kolhapur",
+    "soil_type": "Red Loamy Soil",
+    "side_crops": ["Vegetables", "Millets"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Raigad",
+    "soil_type": "Laterite Soil",
+    "side_crops": ["Vegetables", "Pulses"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Satara",
+    "soil_type": "Red Soil",
+    "side_crops": ["Millets", "Pulses"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Wardha",
+    "soil_type": "Black Soil",
+    "side_crops": ["Tur", "Soybean"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Yavatmal",
+    "soil_type": "Black Soil",
+    "side_crops": ["Green Gram", "Millets"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "soil_type": "Red Soil",
+    "side_crops": ["Soybean", "Green Gram"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Mumbai",
+    "soil_type": "Laterite Soil",
+    "side_crops": ["Vegetables", "Pulses"]
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Ahmednagar",
+    "soil_type": "Black Soil",
+    "side_crops": ["Millets", "Pulses"]
+  },
+  {
+    "state": "Gujarat",
+    "district": "Ahmedabad",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Pulses", "Vegetables"]
+  },
+  {
+    "state": "Gujarat",
+    "district": "Surat",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Sugarcane", "Vegetables"]
+  },
+  {
+    "state": "Gujarat",
+    "district": "Vadodara",
+    "soil_type": "Black Soil",
+    "side_crops": ["Groundnut", "Millets"]
+  },
+  {
+    "state": "Gujarat",
+    "district": "Bhavnagar",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Millets"]
+  },
+  {
+    "state": "Gujarat",
+    "district": "Jamnagar",
+    "soil_type": "Sandy Soil",
+    "side_crops": ["Millets", "Pulses"]
+  },
+  {
+    "state": "Gujarat",
+    "district": "Anand",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Pulses", "Vegetables"]
+  },
+  {
+    "state": "Gujarat",
+    "district": "Rajkot",
+    "soil_type": "Red Soil",
+    "side_crops": ["Maize", "Pulses"]
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "soil_type": "Sandy Loam Soil",
+    "side_crops": ["Moong", "Moth", "Bajra"]
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jodhpur",
+    "soil_type": "Desert Sandy Soil",
+    "side_crops": ["Guar", "Moth", "Cumin"]
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Udaipur",
+    "soil_type": "Red Loamy Soil",
+    "side_crops": ["Maize", "Pulses"]
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Kota",
+    "soil_type": "Black Soil",
+    "side_crops": ["Sesamum", "Green Gram"]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Indore",
+    "soil_type": "Black Cotton Soil",
+    "side_crops": ["Tur", "Moong"]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Bhopal",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Maize", "Pulses"]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Gwalior",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Mustard", "Barley"]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Jabalpur",
+    "soil_type": "Red Loamy Soil",
+    "side_crops": ["Til", "Vegetables"]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Ujjain",
+    "soil_type": "Black Soil",
+    "side_crops": ["Bajra", "Moong"]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Dewas",
+    "soil_type": "Black Soil",
+    "side_crops": ["Millets", "Pulses"]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "district": "Sagar",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Maize", "Tur"]
+  },
+  {
+    "state": "Uttarakhand",
+    "district": "Dehradun",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Pulses", "Maize"]
+  },
+  {
+    "state": "Uttarakhand",
+    "district": "Nainital",
+    "soil_type": "Mountain Soil",
+    "side_crops": ["Vegetables", "Millets"]
+  },
+  {
+    "state": "Uttarakhand",
+    "district": "Haridwar",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Sugarcane", "Pulses"]
+  },
+  {
+    "state": "Jharkhand",
+    "district": "Ranchi",
+    "soil_type": "Red Soil",
+    "side_crops": ["Arhar", "Urad"]
+  },
+  {
+    "state": "Jharkhand",
+    "district": "Jamshedpur",
+    "soil_type": "Red Sandy Soil",
+    "side_crops": ["Vegetables", "Pulses"]
+  },
+  {
+    "state": "Jharkhand",
+    "district": "Dhanbad",
+    "soil_type": "Lateritic Soil",
+    "side_crops": ["Groundnut", "Millets"]
+  },
+  {
+    "state": "Chhattisgarh",
+    "district": "Raipur",
+    "soil_type": "Red & Yellow Soil",
+    "side_crops": ["Maize", "Lentils"]
+  },
+  {
+    "state": "Chhattisgarh",
+    "district": "Bilaspur",
+    "soil_type": "Red Soil",
+    "side_crops": ["Peas", "Vegetables"]
+  },
+  {
+    "state": "Chhattisgarh",
+    "district": "Durg",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Mustard", "Vegetables"]
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Shimla",
+    "soil_type": "Mountain Soil",
+    "side_crops": ["Peas", "Off-season Vegetables"]
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Mandi",
+    "soil_type": "Hill Loam Soil",
+    "side_crops": ["Pulses", "Vegetables"]
+  },
+  {
+    "state": "Himachal Pradesh",
+    "district": "Kangra",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Maize", "Mustard"]
+  },
+  {
+    "state": "Goa",
+    "district": "North Goa",
+    "soil_type": "Laterite Soil",
+    "side_crops": ["Vegetables", "Pineapple"]
+  },
+  {
+    "state": "Goa",
+    "district": "South Goa",
+    "soil_type": "Laterite Soil",
+    "side_crops": ["Pulses", "Vegetables"]
+  },
+  {
+    "state": "Tripura",
+    "district": "Agartala",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Oilseeds"]
+  },
+  {
+    "state": "Tripura",
+    "district": "North Tripura",
+    "soil_type": "Red Loamy Soil",
+    "side_crops": ["Chili", "Ginger"]
+  },
+  {
+    "state": "Tripura",
+    "district": "South Tripura",
+    "soil_type": "Lateritic Soil",
+    "side_crops": ["Pineapple", "Banana"]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Pulses", "Maize"]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Kanpur",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Arhar", "Urad"]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Varanasi",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Lentils"]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Agra",
+    "soil_type": "Sandy Loam Soil",
+    "side_crops": ["Mustard", "Barley"]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Meerut",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Maize", "Vegetables"]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Ghaziabad",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Pulses", "Vegetables"]
+  },
+  {
+    "state": "Uttar Pradesh",
+    "district": "Moradabad",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Green Gram", "Millets"]
+  },
+  {
+    "state": "Bihar",
+    "district": "Patna",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Pulses", "Maize"]
+  },
+  {
+    "state": "Bihar",
+    "district": "Gaya",
+    "soil_type": "Red Soil",
+    "side_crops": ["Groundnut", "Arhar"]
+  },
+  {
+    "state": "Bihar",
+    "district": "Bhagalpur",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Pulses"]
+  },
+  {
+    "state": "Bihar",
+    "district": "Muzaffarpur",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Maize", "Oilseeds"]
+  },
+  {
+    "state": "Haryana",
+    "district": "Gurugram",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Mustard", "Barley"]
+  },
+  {
+    "state": "Haryana",
+    "district": "Hisar",
+    "soil_type": "Sandy Loam Soil",
+    "side_crops": ["Moong", "Bajra"]
+  },
+  {
+    "state": "Haryana",
+    "district": "Karnal",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Pulses", "Vegetables"]
+  },
+  {
+    "state": "Punjab",
+    "district": "Amritsar",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Maize", "Pulses"]
+  },
+  {
+    "state": "Punjab",
+    "district": "Ludhiana",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Sunflower"]
+  },
+  {
+    "state": "Punjab",
+    "district": "Bathinda",
+    "soil_type": "Sandy Loam Soil",
+    "side_crops": ["Chickpea", "Mustard"]
+  },
+  {
+    "state": "West Bengal",
+    "district": "Kolkata",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Pulses", "Vegetables"]
+  },
+  {
+    "state": "West Bengal",
+    "district": "Darjeeling",
+    "soil_type": "Mountain Soil",
+    "side_crops": ["Millets", "Vegetables"]
+  },
+  {
+    "state": "West Bengal",
+    "district": "Howrah",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Mustard", "Pulses"]
+  },
+  {
+    "state": "West Bengal",
+    "district": "Jalpaiguri",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Maize", "Pulses"]
+  },
+  {
+    "state": "Odisha",
+    "district": "Bhubaneswar",
+    "soil_type": "Laterite Soil",
+    "side_crops": ["Groundnut", "Pulses"]
+  },
+  {
+    "state": "Odisha",
+    "district": "Cuttack",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Mustard"]
+  },
+  {
+    "state": "Odisha",
+    "district": "Sambalpur",
+    "soil_type": "Red Soil",
+    "side_crops": ["Millets", "Pulses"]
+  },
+  {
+    "state": "Assam",
+    "district": "Guwahati",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Pulses", "Oilseeds"]
+  },
+  {
+    "state": "Assam",
+    "district": "Jorhat",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Pulses"]
+  },
+  {
+    "state": "Assam",
+    "district": "Dibrugarh",
+    "soil_type": "Red Loam Soil",
+    "side_crops": ["Maize", "Groundnut"]
+  },
+  {
+    "state": "Telangana",
+    "district": "Hyderabad",
+    "soil_type": "Red Sandy Soil",
+    "side_crops": ["Millets", "Pulses"]
+  },
+  {
+    "state": "Telangana",
+    "district": "Warangal",
+    "soil_type": "Black Soil",
+    "side_crops": ["Green Gram", "Sesamum"]
+  },
+  {
+    "state": "Telangana",
+    "district": "Nizamabad",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Pulses"]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Guntur",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Oilseeds"]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Vijayawada",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Maize", "Pulses"]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Tirupati",
+    "soil_type": "Red Soil",
+    "side_crops": ["Groundnut", "Millets"]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Visakhapatnam",
+    "soil_type": "Red Loamy Soil",
+    "side_crops": ["Vegetables", "Millets"]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Kurnool",
+    "soil_type": "Black Soil",
+    "side_crops": ["Tur", "Green Gram"]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Kadapa",
+    "soil_type": "Red Loamy Soil",
+    "side_crops": ["Vegetables", "Millets"]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "district": "Prakasam",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Pulses", "Oilseeds"]
+  },
+  {
+    "state": "Karnataka",
+    "district": "Bengaluru",
+    "soil_type": "Red Soil",
+    "side_crops": ["Millets", "Vegetables"]
+  },
+  {
+    "state": "Karnataka",
+    "district": "Mysuru",
+    "soil_type": "Red Loam Soil",
+    "side_crops": ["Pulses", "Chili"]
+  },
+  {
+    "state": "Karnataka",
+    "district": "Belagavi",
+    "soil_type": "Black Soil",
+    "side_crops": ["Tur", "Maize"]
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Chennai",
+    "soil_type": "Coastal Soil",
+    "side_crops": ["Groundnut", "Vegetables"]
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Coimbatore",
+    "soil_type": "Red Soil",
+    "side_crops": ["Millets", "Pulses"]
+  },
+  {
+    "state": "Tamil Nadu",
+    "district": "Madurai",
+    "soil_type": "Red Loamy Soil",
+    "side_crops": ["Green Gram", "Sesame"]
+  },
+  {
+    "state": "Kerala",
+    "district": "Kochi",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Pulses"]
+  },
+  {
+    "state": "Kerala",
+    "district": "Kollam",
+    "soil_type": "Laterite Soil",
+    "side_crops": ["Banana", "Ginger"]
+  },
+  {
+    "state": "Kerala",
+    "district": "Kannur",
+    "soil_type": "Lateritic Soil",
+    "side_crops": ["Vegetables", "Spices"]
+  },
+  {
+    "state": "Delhi",
+    "district": "New Delhi",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Pulses"]
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "district": "Srinagar",
+    "soil_type": "Mountain Soil",
+    "side_crops": ["Millets", "Pulses"]
+  },
+  {
+    "state": "Ladakh",
+    "district": "Leh",
+    "soil_type": "Cold Desert Soil",
+    "side_crops": ["Barley", "Green Peas"]
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "Itanagar",
+    "soil_type": "Mountain Soil",
+    "side_crops": ["Millets", "Pulses"]
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "district": "Tawang",
+    "soil_type": "Mountain Soil",
+    "side_crops": ["Barley", "Vegetables"]
+  },
+  {
+    "state": "Manipur",
+    "district": "Imphal East",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Pulses", "Vegetables"]
+  },
+  {
+    "state": "Manipur",
+    "district": "Imphal West",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Millets", "Oilseeds"]
+  },
+  {
+    "state": "Mizoram",
+    "district": "Aizawl",
+    "soil_type": "Mountain Soil",
+    "side_crops": ["Vegetables", "Millets"]
+  },
+  {
+    "state": "Mizoram",
+    "district": "Champhai",
+    "soil_type": "Red Loamy Soil",
+    "side_crops": ["Millets", "Pulses"]
+  },
+  {
+    "state": "Nagaland",
+    "district": "Kohima",
+    "soil_type": "Mountain Soil",
+    "side_crops": ["Maize", "Millets"]
+  },
+  {
+    "state": "Nagaland",
+    "district": "Dimapur",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Pulses"]
+  },
+  {
+    "state": "Meghalaya",
+    "district": "Shillong",
+    "soil_type": "Red Loamy Soil",
+    "side_crops": ["Millets", "Vegetables"]
+  },
+  {
+    "state": "Meghalaya",
+    "district": "Tura",
+    "soil_type": "Lateritic Soil",
+    "side_crops": ["Maize", "Pulses"]
+  },
+  {
+    "state": "Sikkim",
+    "district": "Gangtok",
+    "soil_type": "Mountain Soil",
+    "side_crops": ["Millets", "Vegetables"]
+  },
+  {
+    "state": "Sikkim",
+    "district": "Namchi",
+    "soil_type": "Red Loamy Soil",
+    "side_crops": ["Maize", "Pulses"]
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "district": "Port Blair",
+    "soil_type": "Sandy Loam Soil",
+    "side_crops": ["Vegetables", "Pulses"]
+  },
+  {
+    "state": "Chandigarh",
+    "district": "Chandigarh",
+    "soil_type": "Alluvial Soil",
+    "side_crops": ["Vegetables", "Pulses"]
+  },
+  {
+    "state": "Puducherry",
+    "district": "Puducherry",
+    "soil_type": "Coastal Soil",
+    "side_crops": ["Vegetables", "Millets"]
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "district": "Dadra",
+    "soil_type": "Red Soil",
+    "side_crops": ["Millets", "Pulses"]
+  },
+  {
+    "state": "Dadra & Nagar Haveli and Daman & Diu",
+    "district": "Diu",
+    "soil_type": "Sandy Soil",
+    "side_crops": ["Vegetables", "Pulses"]
+  }
+]
