@@ -175,7 +175,7 @@ def model_predict(image_path, crop_type):
     return prediction_label
 
 def get_weather_data(state_name):
-    API_KEY = "d63652e25ab5cd32d6ee9e71991b953a"
+    API_KEY = "your_openweather_api_key"
     LOCATION = state_name + ",IN"
 
     try:
